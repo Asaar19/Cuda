@@ -1,0 +1,982 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*-----Section-1----- */
+.sec-1{
+    background-color: #87509C;
+    height: 550px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav, .logo{
+    margin-top: 50px;
+}
+
+.nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 5px 8px;
+    
+}
+
+.nav ul li a:hover{
+    background-color: #643a79;
+    color: white;
+    border-radius: 4px;
+
+}
+
+.p-1{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 42.16px;
+    margin: 120px 150px 50px 150px;
+    line-height: 1.2;
+}
+
+.btn-1 button{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    padding: 18px 80px;
+    color: white;
+    cursor: pointer;
+    background-color: #eb7d4b;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 5px solid #c86a40;
+    text-decoration: none;
+    
+}
+.sec-1 .con-1 p{
+    text-align: center;
+}
+.con-1{
+    text-align: center;
+}
+
+/*-----Section-2----- */
+.sec-2{
+    height: 650px;
+    background-color: #17C2A4;
+}
+
+.con-2 .h-2, .p-2{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+}
+.con-2 .h-2{
+    padding-top: 100px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    
+}
+
+.con-2 h2::after{
+    content: '';
+    height: 4px;
+    background-color: #14a58c;
+    width: 6%;
+    margin: 12px auto;
+    display: block;
+    opacity: 0.9;
+
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    margin-top: 60px;
+}
+
+.branding h4{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.brand1-3 h4{
+    margin-top: 48px;
+}
+.branding img{
+    margin: 0 auto;
+    display: block;
+    padding: 0px;
+}
+
+
+.branding .p-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 50;
+}
+.branding{
+    margin: 0px 40px;
+}
+
+
+/*-----Section-3----- */
+
+.sec-3{
+    background-color: #E7F1F8;
+    height: 800px;
+    color: #3c4761;
+}
+.team{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.sec-3 .h-3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sec-3 .h-3::after{
+    content: '';
+    height: 4px;
+    background-color: #c8d9e5;
+    width: 6%;
+    margin: 12px auto;
+    display: block;
+    opacity: 0.8;
+
+}
+.sec-3 .p-3,
+.h-3{
+    font-family: 'Titillium Web', sans-serif;
+    color: #3c4761;
+    text-align: center;
+
+}
+.members h4,h6{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.team .members h6{
+    text-align: center;
+}
+
+.members h4{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+.members h6{
+    font-size: 13px;
+    color: #30bae7;
+}
+.members p{
+    margin-top: 20px;
+    text-align: center;
+    color: #3c4761;
+}
+
+.social-links{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0px;
+    opacity: 0.3;
+    
+}
+
+
+.members .social-links img{
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.members{
+    margin: 0px 30px;
+}
+.members img{
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+/*-----Section-4----- */
+
+.sec-4{
+    height: 600px;
+    background-color: #FFFFFF;
+}
+
+.con-4{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.con-4 .h-4, .p-4{
+    font-family: 'Titillium Web', sans-serif;
+    color: #3c4761;
+    text-align: center;
+}
+
+.con-4 .h-4{
+    font-size: 40px;
+    margin-top: 80px;
+}
+.con-4 .h-4::after{
+    content: '';
+    height: 4px;
+    background-color: #dfe8ed;
+    width: 26%;
+    margin: 12px auto;
+    display: block;
+    opacity: 0.8;
+
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 150px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 70px;
+}
+
+.web h4{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.web img{
+    width: 140px;
+    display: block;
+    margin: 0px auto;
+}
+
+/*-----Section-5----- */
+.sec-5{
+    height: 1140px;
+    background-color: #F8DD98;
+}
+
+.sec-5 .con-5, .p-5{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #393939;
+
+}
+
+.con-5 .h-5{
+    padding-top: 80px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.con-5 .h-5::after{
+    content: '';
+    height: 4px;
+    background-color: #e5c37f;
+    width: 6%;
+    margin: 12px auto;
+    display: block;
+    opacity: 0.9;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .sec5-b{
+    margin: 0px 5px;
+    margin-top: 30px;
+}
+
+.buttons .sec5-b a button{
+    background-color: #ebc985;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.buttons .sec5-b a button:hover{
+    background-color: white;
+
+}
+
+.lap{
+    margin-top: 50px;
+}
+
+.lap .row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.lap .row-1 img{
+    width: 400px;
+}
+
+.row-1 h5{
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#row-2-2{
+    margin-top: 50px;
+}
+
+.btn-2 button {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    padding: 16px 60px;
+    color: white;
+    cursor: pointer;
+    background-color: #17c2a4;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 5px solid #14a58c;
+    text-decoration: none;
+}
+
+.sec-5{
+    text-align: center;
+}
+.sec-5 .btn-2 {
+   margin-top: 60px;
+}
+
+
+/*-----Section-6----- */
+.sec-6{
+    height: 650px;
+    background-color: #D74680;
+}
+
+.sec-6 .con-6, .p-6, .h-6{
+    text-align: center;
+    color: white;
+}
+
+.con-6 .h-6{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 4px;
+    padding-top: 70px;
+    color: white;
+    font-size: 35px;
+
+}
+.clients p{
+    color: white;
+}
+
+.con-6 .h-6::after{
+    content: '';
+    height: 3px;
+    background-color: #b73c6d;
+    width: 6%;
+    margin: 12px auto;
+    display: block;
+    opacity: 0.9;
+
+}
+
+.c-row1 div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.c-row1 p{
+    font-style: italic;
+}
+.c-row1 h3{
+    margin-top: 10px;
+    color: white;
+}
+
+.c-row1 h6{
+    color: #fac996;
+    font-size: 14px;
+}
+.c-row1 .div6, p, h3, h6{
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.c-row1 .div6{
+    margin-left: 30px;
+
+}
+
+.c-row1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 80px;
+}
+.c-row1 .col-1{
+    display: flex;
+
+}
+
+#c-row2{
+ margin: 100px 35px 0px 35px;
+}
+
+
+/*-----Section-7----- */
+
+.sec-7{
+    height: 670px;
+    background-color: #3C5499;
+}
+
+.sec-7 .con-7{
+    text-align: center;
+}
+.sec-7 .h-7{
+    padding-top: 80px;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.sec-7 .p-7{
+    margin-bottom: 25px;
+}
+
+.sec-7 .btn-3{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.con-7 .h-7::after{
+    content: '';
+    height: 3px;
+    background-color: #273a71;
+    width: 6%;
+    margin: 12px auto;
+    display: block;
+    opacity: 0.9;
+
+}
+.con-7 .h-7, .p-7{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.form{
+    text-align: center;
+}
+.form .input-field::placeholder{
+    color: white;
+}
+.form .input-field{
+    border-radius: 3px;
+    width: 370px;
+    height: 45px;
+    margin: 10px 8px;
+    padding-left: 10px;
+    background-color: #273a71;
+    border: none;
+    color: white;
+    
+}
+
+.form .textarea {
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 760px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-3 button {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    padding: 16px 60px;
+    color: white;
+    cursor: pointer;
+    background-color: #30bae7;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 5px solid #299ec5;
+    text-decoration: none;
+}
+
+/*-----footer-----*/
+footer{
+    height: 110px;
+    background-color: #344b8e;
+}
+.fot{
+    display: flex;
+    justify-content: center;
+    
+}
+.fot a{
+    padding-top: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 20px;
+    align-items: center;
+    color: white;
+
+}
+
+.fot-copy{
+    padding: 10px 0px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+
+
+label img{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+/* -----------------------MEDIA QUERIES--------------------------- */
+@media all and (max-width: 1200px){
+    .con-1 .p-1{
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    .btn-1 button{
+        font-size: 13px;
+        padding: 12px 40px;
+      
+    }
+
+    .sec-1{
+        height: auto;
+        padding-bottom: 50px;
+
+    }
+
+    label img{
+        width: 50px;
+        display: block;
+        cursor: pointer;
+    }
+    
+    label{
+        /* margin-top: 0px; */
+        /* margin-right: 50px; */
+        float: right;
+    }
+    .checkbtn{
+        display: block;
+    }
+    
+    .nav ul li{
+        display: block;
+        margin: 50px 0px;
+    }
+    
+    .nav ul li a{
+        font-size: 20px;
+    }
+    
+    .nav ul li a:hover{
+        padding: 5px 20px;
+        background: #87509C;
+        border-radius: 15px;
+    }
+    .nav ul{
+        z-index: 999;
+        position: fixed;
+        width: 70%;
+        height: 110vh;
+        top: -20px;
+        left: -100%;
+        background: rgba(14, 13, 13, 0.8);
+        text-align: center;
+        transition: all 0.3s;
+        
+    }
+    
+    .sec-1 #check:checked ~ ul{
+        left: 0%;
+    }
+}
+
+
+
+
+@media all and (max-width: 960px){
+    .sec-2 .services .p-2{
+        font-size: 13px;
+    }
+
+    .sec-2{
+        height: auto;
+        padding-bottom: 50px;
+
+    }
+
+    .services{
+        display: flex;
+        flex-flow: wrap;
+
+    }
+
+    .branding{
+        margin: 30px 0px;
+        width: 40%;
+    }
+
+    .sec-3 .team .members p{
+        font-size: 12px;
+    }
+
+    /* ----Section-3----- */
+    .sec-3{
+        height: auto;
+        padding-bottom: 50px;
+
+    }
+
+    .members{
+        padding-top: 10px;
+    }
+    .members h4{
+        margin: 10px 0px 0px 0px;
+    }
+    .sec-3 .members{
+        width: 40%;
+        margin: 20px 0px;
+    }
+    .team{
+        flex-flow: wrap;
+    }
+    .social-links{
+        margin: 0 auto;
+        width: 48%;
+    }
+    
+    .social-links img{
+        margin: 0px 10px;
+        border: none;
+        display: inline-block;
+    }
+
+
+    /* ----Section-4----- */
+
+    .sec-4{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .sec-4 .skills{
+        flex-flow: wrap;
+    }
+
+    .sec-4 .web{
+        width: 40%;
+    }
+
+    .web:nth-child(3),
+    .web:nth-child(4){
+        margin-top: 50px;
+    }
+
+
+}
+
+@media all and (max-width: 880px){
+
+    .sec-5{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .sec-5 .lap .row-1 img{
+        width: 80%;
+    }
+
+    .sec-5 .lap .row-1{
+        padding: 0px;
+    }
+
+    .sec-6{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .c-row1 .div6{
+        margin-left: 8px;
+    }
+
+    .c-row1 p{
+        font-size: 13px;
+    }
+
+    .c-row1{
+        margin: 50px 10px;
+    }
+    #c-row2 {
+        margin: 61px 0px 0px 0px;
+    }
+}
+
+@media all and (max-width: 775px){
+    .sec-7 .form #textarea{
+        width: 50%;
+    }
+
+
+    footer{
+        height: auto;
+    }
+
+    .fot h4{
+        width: 50%;
+    }
+
+    .fot a{
+        padding-top: 5px;
+    }
+    .fot{
+        flex-flow: wrap;
+    }
+}
+
+@media all and (max-width: 675px){
+    .social-links{
+        width: 65%;
+    }
+    
+    
+    .skills{
+        margin: 0px 30px;
+    }
+
+    .skills .web:nth-child(1),
+    .skills .web:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+
+
+}
+
+@media all and (max-width: 600px){
+    .sec-6 .clients .c-row1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .c-row1 .col-1{
+        justify-content: center;
+    }
+
+    .sec-7{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .sec-6 .clients .c-row1 .col-1:nth-child(1){
+        padding-bottom: 30px;
+    }
+
+    .social-links{
+        width: 77%;
+    }
+    .sec-1 .con-1 .p-1{
+        margin: 50px 50px;
+    }
+
+    
+}
+
+@media all and (max-width: 600px){
+    .sec-2 .services .branding{
+        margin: 20px 28px;
+    }
+    
+    .sec-2 .services .branding{
+        width: 38%;
+    }
+    
+}
+
+@media all and (max-width: 515px){
+    .sec-3 .team{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sec-3 .members{
+        width: 100%;
+
+    }
+
+    .social-links{
+        width: 35%;
+    }
+}
+
+@media all and (max-width: 427px){
+    .sec-7 .form .input-field{
+        width: 50%;
+    }
+
+    .sec-4 .skills{
+        flex-direction: column;
+    }
+
+    .social-links{
+        width: 45%;
+    }
+
+    .sec-5 .lap .row-1{
+        flex-direction: column;
+    }
+
+    .sec-5 .buttons{
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .buttons .sec5-b{
+        width: 40%;
+
+    }
+}
+
+/* @media all and (max-width: 900px){
+
+} */
+
+/* @media all and (max-width: 768px){
+    .sec-1{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .btn-1 button{
+        font-size: 13px;
+        padding: 12px 40px;
+      
+    }
+    .sec-1 .con-1 .p-1{
+        font-size: 20px;
+        margin: 50px 0px;
+    }
+
+    .sec-2{
+        height: auto;
+        padding-bottom: 20px;
+
+    }
+    .sec-2 .services{
+
+    flex-direction: column;
+    }
+
+
+    .sec-3{
+        height: auto;
+        padding-bottom: 20px;
+
+    }
+    .sec-3 .team{
+        flex-direction: column;
+    }
+
+    .sec-4{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .sec-4 .skills{
+        flex-direction: column;
+    }
+
+    .sec-5{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .sec-5 .lap .row-1{
+        flex-direction: column;
+    }
+
+    .sec-5 .buttons{
+        flex-direction: column;
+    }
+
+    .sec-5 .lap .row-1 img{
+        width: 50%;
+    }
+
+    .sec-6{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .sec-6 .clients .c-row1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-7{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .sec-7 .form form textarea, .input-field{
+        display: none;
+    }
+
+    footer{
+        height: auto;
+    }
+    footer .fot{
+        flex-direction: column;
+    }
+} 
+ */
